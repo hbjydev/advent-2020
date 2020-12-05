@@ -16,7 +16,7 @@ while finish == False:
         trees += 1
 
     if x + 3 >= 31:
-        x = 0
+        x = (x + 3) - 31
     else:
         x += 3
 
